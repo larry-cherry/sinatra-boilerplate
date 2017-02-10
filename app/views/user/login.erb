@@ -1,0 +1,22 @@
+<div class="login-container">
+  <%if @errors != nil%>
+    <ul>
+    <%@errors.each do |error|%>
+      <%=error%>
+    <%binding.pry%>
+    <%end%>
+    </ul>
+  <%end%>
+
+  <h2>Login</h3>
+  <%if @login != nil%>
+    <p><%=@login%></p>
+  <%end%>
+  <form action="/user/login" method="post">
+    <label>Email:</label>
+    <input type="email" name="user[email]">
+    <label>Password:</label>
+    <input type="password" name="user[password]">
+    <input type="submit" value="submit">
+  </form>
+</div>

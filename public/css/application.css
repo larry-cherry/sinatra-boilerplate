@@ -1,0 +1,82 @@
+header {
+  text-align: center;
+/*  background-color: #63adff;*/
+  background-color: #008bb8;
+}
+header h1 {
+  margin: 0;
+  font-size: 80px;
+  font-family: "Raleway";
+  color: #fff;
+}
+
+header a {
+  text-decoration: none;
+}
+header a:visited {
+  color: #fff;
+}
+
+header nav {
+  padding-bottom: 2px;
+}
+
+header nav a:first-child {
+  border-right: 2px solid #bbb;
+  padding-right: 10px;
+}
+
+header nav a:last-child {
+  border-left: 2px solid #bbb;
+  padding-left: 10px;
+}
+
+nav {
+  text-align: right;
+  padding: 0 100px;
+}
+body {
+  background-color: #d6eef6;
+}
+
+p {
+  padding: 0 5px;
+}
+
+textarea {
+  display: block;
+  margin-bottom: 5px;
+}
+
+textarea[name=answer_text] {
+  height: 200px;
+  width: 400px;
+  resize: none;
+}
+
+form input {
+  display: block;
+  margin: 5px;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+form {
+  display: inline-block;
+  text-align: center;
+}
+
+.login-container {
+  background-color:#fff;
+  text-align: center;
+  display:inline-block;
+  margin: 0 auto;
+  padding: 40px;
+/*  position: relative;*/
+  left: 30%;
+  border-radius: 3px;
+  width:600px;
+}
